@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <link href="styles.css" rel="stylesheet" />
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am <strong>Ali Zahed</strong>, a Mechatronics student specializing in robotics and automation.</p>
+    </section>
 
-    <title>Rocket Academy</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Arduino & Embedded Systems</li>
+            <li>MATLAB & Simulink</li>
+            <li>SolidWorks (3D Modeling)</li>
+            <li>Python & C++</li>
+            <li>Control Systems & Automation</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="images/Robotic Arm.webp" alt="Robotic Arm">
+                <h3>Robotic Arm Control</h3>
+                <p>Designed a robotic arm using Arduino and servo motors.</p>
+            </div>
+
+            <div class="project">
+                <img src="images/Line Following Robot.webp" alt="Line Following Robot">
+                <h3>Line Following Robot</h3>
+                <p>A robot that follows a black line using IR sensors and PID control.</p>
+            </div>
+
+            <div class="project">
+                <img src="images/Smart Lighting System.webp" alt="Smart Lighting System">
+                <h3>Smart Lighting System</h3>
+                <p>Automatic lighting system adjusting based on movement and ambient light.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:alirabea581@gmail.com">alirabea581@gmail.com</a></p>
+        <p>Phone: 39890276</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ali Zahed. All rights reserved.</p>
+    </footer>
+</body>
 </html>
